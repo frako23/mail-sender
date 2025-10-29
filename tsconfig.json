@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // Entorno moderno para Node.js + ESModules
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+
+    // Salida opcional si compilas
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Reglas estrictas y buenas prácticas
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    // Solo si usas React en este proyecto (puedes quitarlo si no aplica)
+    "jsx": "react-jsx"
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
